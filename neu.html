@@ -16,9 +16,9 @@
 
         <!-- navbar -->
         <div>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <nav class="navbar navbar-expand-lg nav-tabs navbar-dark bg-secondary navbar1">
                 <div class="container-fluid">
-                    <a class="navbar-brand text-black fw-bold" href="#">Simple News</a>
+                    <a class="navbar-brand text-black fw-bold sitetextcolor">Simple News</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -26,32 +26,32 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#headlines" id="headlines">Headlines</a>
-                        </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#general" id="general">General</a>
+                              <a class="nav-link text-black fw-bold" aria-current="page" href="#headlines" id="headlines">Headlines</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#business" id="business" >Business</a>
+                                <a class="nav-link text-black fw-bold" aria-current="page" href="#general" id="general">General</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#sports" id="sport">Sports</a>
+                                <a class="nav-link text-black fw-bold" aria-current="page" href="#business" id="business" >Business</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="#tehnology" id="technology">Technology</a>
+                                <a class="nav-link text-black fw-bold" href="#sports" id="sport">Sports</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#entertainment" id="entertainment">Entertainment</a>
+                                <a class="nav-link text-black fw-bold" aria-current="page" href="#tehnology" id="technology">Technology</a>
                             </li>
                             <li class="nav-item">
-                              <a class="nav-link" href="#stocks" id="stocks">Stocks</a>
+                                <a class="nav-link text-black fw-bold" href="#entertainment" id="entertainment">Entertainment</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link text-black fw-bold" href="#stocks" id="stocks">Stocks</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#crypto" id="crypto">Crypto</a>
+                            <a class="nav-link text-black fw-bold" href="#crypto" id="crypto">Crypto</a>
                         </li>
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle bg-black text-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="dropdown nav-item">
+                            <button class="btn btn-secondary dropdown-toggle nav-link text-black fw-bold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Country
                             </button>
                             <ul class="dropdown-menu">
@@ -108,8 +108,9 @@
                               
                             </ul>
                           </div>
-                          <input class="m-1" type="date" id="datePickerId1" onchange="date1()">
-                          <input class="m-1" type="date" id="datePickerId">
+                          <input class="m-1 nav link" type="date" id="datePickerId1" onchange="date1()">
+                          <p class="m-2 text-black fw-bold">to</p>
+                          <input class="m-1 nav link" type="date" id="datePickerId">
                         </ul>
                         <form class="d-flex">
                             <input class="form-control me-2 text-center" type="text" id="newsQuery" placeholder="Search news">
@@ -129,9 +130,9 @@
         <!-- footer -->
         <div class="mt-5">
             <div>
-                <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mt-4">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-secondary mt-4 navbar1">
                   <div class="container-fluid m-0 p-0">
-                    <h5 class="text-black me-auto ms-auto">Simple News</h5>
+                    <h5 class="text-black me-auto ms-auto fw-bold sitetextcolor">Simple News</h5>
                   </div>
                 </nav>
               </div>
