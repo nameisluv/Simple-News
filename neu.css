@@ -2,3 +2,14 @@
     max-height: 280px;
     overflow-y: auto;
 }
+body{
+
+    background-color: #cfbff9!important;
+
+}
+.sitetextcolor{
+    color: rgb(207, 29, 29)!important;
+}
+.navbar1{
+    background-color: rgb(185, 136, 230)!important;
+}
