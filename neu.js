@@ -32,7 +32,7 @@ console.log(currentDate);
 
 // apis 
 
-const API_KEY = process.env.API_KEY1;
+const API_KEY = "176e8e63880341e5bcc741caf32764ba";
 
 window.onload = function () {
     newsType.innerHTML = "<h4>Headlines "+countryhtml+"</h4>";
