@@ -1,0 +1,15 @@
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+body{
+
+    background-color: #ffffff!important;
+
+}
+.sitetextcolor{
+    color: rgb(219, 223, 99)!important;
+}
+.navbar1{
+    background-color: rgba(6, 3, 3, 0.467)!important;
+}
